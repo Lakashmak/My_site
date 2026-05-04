@@ -1,0 +1,38 @@
+main > div {
+	padding: 10px;
+	width: max-content;
+}
+
+main > div > h2 {
+	white-space: nowrap;
+}
+
+main > div > div {
+	margin-top: 10px;
+	background-color: #3f3f3f;
+	border: 2px solid black;
+	border-radius: 25px;
+	overflow: hidden;
+}
+
+main > div > div > h3 {
+	padding: 5px;
+	padding-left: 20px;
+	background-color: #7f7f7f;
+}
+
+main > div > div > div {
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-bottom: 15px;
+}
+
+main > div > div > div > a {
+	color: #ffffff;
+    text-decoration: none;
+}
+
+main > div > div > div > a:hover {
+	color: #ff7f00;
+	text-decoration: underline;
+}
