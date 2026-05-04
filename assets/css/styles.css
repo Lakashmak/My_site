@@ -56,14 +56,24 @@ nav {
 	text-align: center;
 	padding: 2px;
 	text-size-adjust: 8pt;
+	width: 100vw; /*настоящая ширина устанавливается из main.js*/
+	min-width: 0;
+	overflow: hidden;
+	flex-shrink: 0;
 }
 
-nav > a {
+nav > div {
+	white-space: nowrap;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+nav > div > a {
 	color: #000000;
 	text-decoration: none;
 }
 
-nav > p {
+nav > div > p {
 	display: inline;
 }
 
