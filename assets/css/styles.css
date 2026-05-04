@@ -18,7 +18,7 @@ body {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    min-height: 765px;
+    /*min-height: 765px;*/ /*теперь это свойство устанавливается из main.js*/
 }
 
 #header {
@@ -74,10 +74,6 @@ main {
     display: flex;
 	flex-direction: column;
     align-items: center;
-}
-
-main > div {
-	width: max-content;
 }
 
 #footer {
