@@ -1,0 +1,90 @@
+main > div {
+	padding: 10px;
+	width: max-content;
+}
+
+main > div > div {
+	margin-top: 10px;
+	background-color: #3f3f3f;
+	border: 2px solid black;
+	border-radius: 25px;
+	max-width: 90vw;
+	overflow: hidden;
+}
+
+main > div > div > a {
+	display: inline-block;
+	width: 90vw;
+	padding-top: 5px;
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #7f7f7f;
+	text-align: center;
+	font-size: 24pt;
+	font-weight: bold;
+	color: #000000;
+    text-decoration: none;
+}
+
+main > div > div > div {
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-bottom: 15px;
+	color: white;
+	white-space: nowrap;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.card {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 37vw;
+	background-color: #7f7f7f;
+	border: 2px solid black;
+	border-radius: 25px;
+	overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+}
+
+.card:hover {
+    background-color: #ffbf00;; 
+}
+
+.screenshot {
+	margin: 10px;
+	width: 30vw;
+	height: 20vw;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: #3f3f3f;
+	object-fit: contain;
+	object-position: center;
+}
+
+.card > div {
+	width: 100%;
+	background-color: #1f1f1f;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: flex;
+    align-items: center;
+    height: 5vh;
+    overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.card > div > img {
+	width: 3vh;
+	height: 3vh;
+	border-radius: 1.5vh;
+	margin-right: 1vh;
+}
+
+.card > div > h3 {
+	font-size: 1.5vh;
+}

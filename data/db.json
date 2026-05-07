@@ -10,9 +10,9 @@
             "link": "https://lakashmak.github.io/Synthesizer_JS",
             "github": "https://github.com/Lakashmak/Synthesizer_JS",
             "icon": null,
-            "screenshot": null,
+            "screenshot": "assets/img/programs/Synthesizer_JS_screenshot.jpg",
             "language": "JavaScript",
-            "date": "04.08.2025",
+            "date": "2025-08-04",
             "status": "Лучшая программа",
             "description": "Мой частично vibe-кодинговый pet-проект на JavaScript 2025 года, реализует настройку нотной клавиатуры с выбором частоты каждой ноты, изначально задумывался как собственный музыкальный секвенсор для экспериментов с произвольными микрохроматическими гаммами."
         },{
@@ -24,10 +24,10 @@
             "platform": "WEB",
             "link": "https://lakashmak.github.io/Functions_space_JS",
             "github": "https://github.com/Lakashmak/Functions_space_JS",
-            "icon": null,
-            "screenshot": null,
+            "icon": "assets/img/programs/Functions_space_logo.ico",
+            "screenshot": "assets/img/programs/Functions_space_JS_screenshot.jpg",
             "language": "JavaScript",
-            "date": "28.01.2025",
+            "date": "2025-01-28",
             "status": "Лучшая программа",
             "description": "Пересоздание моего проекта Пространство функций в веб-версии 2025 года на JavaScript"
         },{
@@ -40,9 +40,9 @@
             "link": "https://github.com/Lakashmak/Rasterizer/releases/latest",
             "github": "https://github.com/Lakashmak/Rasterizer",
             "icon": null,
-            "screenshot": null,
+            "screenshot": "assets/img/programs/Rasterizer_screenshot.jpg",
             "language": "C#",
-            "date": "05.03.2024",
+            "date": "2024-03-05",
             "status": "Лучшая программа",
             "description": "Мой C# pet-проект 2024 года, реализующий 4D-проекционную графику с использованием самописного класса для кватернионов."
         },{
@@ -54,10 +54,10 @@
             "platform": "Windows",
             "link": "https://github.com/Lakashmak/Functions_space/releases/latest",
             "github": "https://github.com/Lakashmak/Functions_space",
-            "icon": null,
-            "screenshot": null,
+            "icon": "assets/img/programs/Functions_space_logo.ico",
+            "screenshot": "assets/img/programs/Functions_space_screenshot.jpg",
             "language": "C#",
-            "date": "26.02.2023",
+            "date": "2023-02-26",
             "status": "Лучшая программа",
             "description": "Мой C# pet-проект 2023 года, рисует графики функций на основе определения расстояния до функции, а затем раскрашивает пиксель на основе логарифма расстояния. Сами функции определяются в текстовом поле и анализируются программой."
         },{
@@ -69,10 +69,10 @@
             "platform": "Windows",
             "link": "https://github.com/Lakashmak/Physics_simulator/blob/926ab2de9ccda88ac8458e87f719c4f7ec195a57/%D1%81%D0%B8%D0%BC%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80%20%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B8/bin/Debug/%D1%81%D0%B8%D0%BC%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80%20%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B8.exe",
             "github": "https://github.com/Lakashmak/Physics_simulator",
-            "icon": null,
-            "screenshot": null,
+            "icon": "assets/img/programs/Physics_simulator_logo.ico",
+            "screenshot": "assets/img/programs/Physics_simulator_screenshot.jpg",
             "language": "C#",
-            "date": "15.07.2019",
+            "date": "2019-07-15",
             "status": "Лучшая программа",
             "description": "Мой старый pet-проект на C# 2019 года. Дискретно реализует N материальных точек, взаимодействующих гравитацией, кулоновским взаимодействием и кубическим отталкиванием. Также реализовано распространение поперечных волн с помощью клеточного автомата."
         },{
@@ -85,9 +85,9 @@
             "link": "https://github.com/Lakashmak/Gravity_simulator/releases/latest",
             "github": "https://github.com/Lakashmak/Gravity_simulator",
             "icon": null,
-            "screenshot": null,
+            "screenshot": "assets/img/programs/Gravity_simulator_screenshot.jpg",
             "language": "C#",
-            "date": "19.04.2022",
+            "date": "2022-04-19",
             "status": "Лучшая программа",
             "description": "Мой C# pet-проект 2022 года, который представляет собой экспериментальную ветку разработки симулятора частиц из Симулятора физики, для создания его открытой версии. Но физические правила в этом проекте оказались слишком разными, из-за чего было принято решение оставить его как отдельный проект."
         },{
@@ -99,10 +99,10 @@
             "platform": "Windows",
             "link": "https://github.com/Lakashmak/Mandelbrot_set/releases/latest",
             "github": "https://github.com/Lakashmak/Mandelbrot_set",
-            "icon": null,
-            "screenshot": null,
+            "icon": "assets/img/programs/Mandelbrot_set_logo.ico",
+            "screenshot": "assets/img/programs/Mandelbrot_set_screenshot.jpg",
             "language": "C++",
-            "date": "16.03.2022",
+            "date": "2022-03-16",
             "status": "Лучшая программа",
             "description": "Мой C++ pet-проект 2022 года. В нем реализован рендеринг множеств Мандельброта и Жюлиа с масштабированием и отслеживанием координат места масштабирования с помощью самописного класса комплексных чисел."
         },{
@@ -115,9 +115,9 @@
             "link": "https://github.com/Lakashmak/Repainter/releases/latest",
             "github": "https://github.com/Lakashmak/Repainter",
             "icon": null,
-            "screenshot": null,
+            "screenshot": "assets/img/programs/Repainter_screenshot.jpg",
             "language": "C#",
-            "date": "07.12.2022",
+            "date": "2022-12-07",
             "status": "Лучшая программа",
             "description": "Мой C# pet-проекте 2022 года, реализует попиксельное перекрашивание изображения путем задания функций для преобразования цветовых каналов в ARGB."
         },{
@@ -129,10 +129,10 @@
             "platform": "Android",
             "link": "https://github.com/Lakashmak/Bouncing_square_Java/releases/latest",
             "github": "https://github.com/Lakashmak/Bouncing_square_Java",
-            "icon": null,
-            "screenshot": null,
+            "icon": "assets/img/programs/Bouncing_square_logo.png",
+            "screenshot": "assets/img/programs/Bouncing_square_screenshot.jpg",
             "language": "Java",
-            "date": "01.03.2026",
+            "date": "2026-03-01",
             "status": "Игра",
             "description": "Мой первый Android проект на Java 2026-ого года, изначально представлял собой тестовую практику по написанию приложений на Android, но превратился в небольшую физическую игру."
         },{
@@ -145,9 +145,9 @@
             "link": "https://lakashmak.github.io/Maze_3",
             "github": "https://github.com/Lakashmak/Maze_3",
             "icon": null,
-            "screenshot": null,
+            "screenshot": "assets/img/programs/Maze_3_screenshot.jpg",
             "language": "JavaScript",
-            "date": "21.04.2025",
+            "date": "2025-04-21",
             "status": "Игра",
             "description": "Мой pet-проект на JavaScript 2025 года — это римейк моих программ Лабиринт и Лабиринт 2, и цель — превратить его в более или менее законченную игру."
         },{
@@ -160,9 +160,9 @@
             "link": "https://github.com/Lakashmak/Maze_2/releases/latest",
             "github": "https://github.com/Lakashmak/Maze_2",
             "icon": null,
-            "screenshot": null,
+            "screenshot": "assets/img/programs/Maze_2_screenshot.jpg",
             "language": "C++",
-            "date": "12.04.2022",
+            "date": "2022-04-12",
             "status": "Игра",
             "description": "Мой студенческий проект на C++ 2022 года — это римейк моей программы Лабиринт, в котором реализована более реалистичная физика, улучшенная графика и создано масштабирование камеры с привязкой к игроку."
         },{
@@ -175,9 +175,9 @@
             "link": "https://github.com/Lakashmak/Space_wanderer/releases/latest",
             "github": "https://github.com/Lakashmak/Space_wanderer",
             "icon": null,
-            "screenshot": null,
+            "screenshot": "assets/img/programs/Space_wanderer_screenshot.jpg",
             "language": "C#",
-            "date": "22.04.2019",
+            "date": "2019-04-22",
             "status": "Игра",
             "description": "Моя личная программа, написанная на курсе C# в 2019 году. Она реализует игру, в которой вы играете за космический корабль, вращающийся вокруг планеты, и можете менять орбиту, ускоряясь кнопкой Z и замедляясь кнопкой X.  Цель — собрать как можно больше монет, не врезаясь в планеты или спутники и не вылетев из системы."
         },{
@@ -190,9 +190,9 @@
             "link": "https://github.com/Lakashmak/Maze/releases/latest",
             "github": "https://github.com/Lakashmak/Maze",
             "icon": null,
-            "screenshot": null,
+            "screenshot": "assets/img/programs/Maze_screenshot.jpg",
             "language": "C#",
-            "date": "21.03.2019",
+            "date": "2019-03-21",
             "status": "Игра",
             "description": "Моя программа, сделанная на курсе C# в 2019 году. Это небольшая игра, в которой за очки нужно проходить сгенерированные лабиринты с врагами."
         },{
@@ -205,9 +205,9 @@
             "link": "https://github.com/Lakashmak/Flappy_Bird/releases/latest",
             "github": "https://github.com/Lakashmak/Flappy_Bird",
             "icon": null,
-            "screenshot": null,
+            "screenshot": "assets/img/programs/Flappy_Bird_screenshot.jpg",
             "language": "C#",
-            "date": "07.04.2019",
+            "date": "2019-04-07",
             "status": "Игра",
             "description": "Моя программа сделанная на курсе C# в 2019 году. Является попыткой реализации игры Flappy Bird."
         },{
@@ -220,9 +220,9 @@
             "link": "https://github.com/Lakashmak/Snake/releases/latest",
             "github": "https://github.com/Lakashmak/Snake",
             "icon": null,
-            "screenshot": null,
+            "screenshot": "assets/img/programs/Snake_screenshot.jpg",
             "language": "C#",
-            "date": "25.03.2019",
+            "date": "2019-03-25",
             "status": "Игра",
             "description": "Мой маленький проект на C# 2019 года, реализующий классическую игру в змейку."
         },{
@@ -235,9 +235,9 @@
             "link": "https://lakashmak.github.io/Evolution_of_numbers",
             "github": "https://github.com/Lakashmak/Evolution_of_numbers",
             "icon": null,
-            "screenshot": null,
+            "screenshot": "assets/img/programs/Evolution_of_numbers_screenshot.jpg",
             "language": "JavaScript",
-            "date": "30.04.2026",
+            "date": "2026-04-30",
             "status": "Интересная ерунда",
             "description": "Мой pet-проект 2026-го года на JavaScript, пока тут мои наработки по созданию игры."
         },{
@@ -249,10 +249,10 @@
             "platform": "WEB",
             "link": "https://lakashmak.github.io/My_site",
             "github": "https://github.com/Lakashmak/My_site",
-            "icon": null,
-            "screenshot": null,
+            "icon": "assets/img/custom/avatar.jpg",
+            "screenshot": "assets/img/programs/My_site_screenshot.jpg",
             "language": "HTML, CSS",
-            "date": "03.05.2026",
+            "date": "2026-05-03",
             "status": "Интересная ерунда",
             "description": "Мой личный сайт сделанный на HTML и CSS на котором вы прямо сейчас сидите 🫠"
         }
