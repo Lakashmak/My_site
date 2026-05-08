@@ -14,6 +14,7 @@ function main() {
 	
 	if (!p) window.location.href = "https://lakashmak.github.io/My_site/void_page.html";
 	else {
+		document.title = p.name;
 		var html = "";
 		
 		html += `<div class="namehead">`;
@@ -27,7 +28,7 @@ function main() {
 		html += `    <div class="info">`;
 		html += `        <h3>Информация</h3>`;
 		html += `        <div>`;
-		html += `            <p>создано: ${p.date}</p>`;
+		html += `            <p>создано: ${get_date(p.date)}</p>`;
 		html += `            <p>язык: ${p.language}</p>`;
 		html += `            <p>платформа: ${p.platform}</p>`;
 		html += `            <p>статус: ${p.status}</p>`;
@@ -59,4 +60,39 @@ function main() {
 		
 		namehead.style.paddingLeft = Math.max(0, (width - nameWidth - iconWidth) / 2) + "px";*/
 	}
+}
+
+function get_date(str) {
+	var str2 = "";
+	
+	var nums = [];
+	var num = "";
+	for(let i = 0; i < str.length; i++) {
+		if(str[i] != '-') num += str[i];
+		else {
+			if(num != "") nums.push(num);
+			num = "";
+		}
+	}
+	if(num != "") nums.push(num);
+	
+	if(nums[2][0] == '0') str2 += nums[2][1] + " ";
+	else str2 += nums[2] + " ";
+	
+	if(parseInt(nums[1]) == 1) str2 += "января ";
+	if(parseInt(nums[1]) == 2) str2 += "февраля ";
+	if(parseInt(nums[1]) == 3) str2 += "марта ";
+	if(parseInt(nums[1]) == 4) str2 += "апреля ";
+	if(parseInt(nums[1]) == 5) str2 += "мая ";
+	if(parseInt(nums[1]) == 6) str2 += "июня ";
+	if(parseInt(nums[1]) == 7) str2 += "июля ";
+	if(parseInt(nums[1]) == 8) str2 += "августа ";
+	if(parseInt(nums[1]) == 9) str2 += "сентября ";
+	if(parseInt(nums[1]) == 10) str2 += "октября ";
+	if(parseInt(nums[1]) == 11) str2 += "ноября ";
+	if(parseInt(nums[1]) == 12) str2 += "декабря ";
+	
+	str2 += nums[0] + " года";
+	
+	return str2;
 }

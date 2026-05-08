@@ -73,6 +73,10 @@ nav > div > a {
 	text-decoration: none;
 }
 
+nav > div > a:hover {
+	text-decoration: underline;
+}
+
 nav > div > p {
 	display: inline;
 }
@@ -111,11 +115,14 @@ main {
 	width: 25px;
 	height: 25px;
 	margin-right: 5px;
+	object-fit: contain;
+	object-position: center;
 }
 
 .link > a {
 	color: #ffffff;
     text-decoration: none;
+    margin-top: 2.5px;
 }
 
 .link > a:hover {

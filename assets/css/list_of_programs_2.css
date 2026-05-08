@@ -1,44 +1,31 @@
-.homePage {
+.LoPPage {
 	color: #ffffff;
 }
 
-main > div {
+.search {
+	width: 100%;
 	padding: 10px;
-	width: max-content;
-}
-
-main > div > div {
-	margin-top: 10px;
-	background-color: #3f3f3f;
-	border: 2px solid black;
-	border-radius: 25px;
-	max-width: 90vw;
-	overflow: hidden;
-}
-
-main > div > div > a {
-	display: inline-block;
-	width: 90vw;
-	padding-top: 5px;
-	padding: 5px;
-	padding-left: 20px;
-	padding-right: 20px;
 	background-color: #7f7f7f;
+	border-bottom: 1px solid black;
 	text-align: center;
-	font-size: 24pt;
-	font-weight: bold;
-	color: #000000;
-    text-decoration: none;
 }
 
-main > div > div > div {
-	padding-top: 5px;
-	padding-left: 10px;
-	padding-bottom: 15px;
-	color: white;
-	white-space: nowrap;
-	overflow-x: auto;
-	-webkit-overflow-scrolling: touch;
+.search > a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.search > a:hover {
+	color: #ffbf00;
+	text-decoration: underline;
+}
+
+#content {
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 10px;
 }
 
 .card {
@@ -55,7 +42,7 @@ main > div > div > div {
 }
 
 .card:hover {
-    background-color: #ffbf00;; 
+    background-color: #ff7f00;; 
 }
 
 .screenshot {
@@ -80,6 +67,7 @@ main > div > div > div {
     height: 5vh;
     overflow-x: auto;
 	-webkit-overflow-scrolling: touch;
+	justify-content: center;
 }
 
 .card > div > img {
@@ -90,5 +78,6 @@ main > div > div > div {
 }
 
 .card > div > h3 {
+	color: white;
 	font-size: 1.5vh;
 }
