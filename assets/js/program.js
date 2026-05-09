@@ -3,9 +3,13 @@ const id = params.get('id');
 const content = document.getElementById("content");
 
 var programs;
+var statuses;
+var languages;
 
 fetch('data/db.json').then(r => r.json()).then(data => {
 	programs = data.programs;
+	statuses = data.statuses;
+	languages = data.languages;
 	main();
 });
 
@@ -29,9 +33,11 @@ function main() {
 		html += `        <h3>Информация</h3>`;
 		html += `        <div>`;
 		html += `            <p>создано: ${get_date(p.date)}</p>`;
-		html += `            <p>язык: ${p.language}</p>`;
+		html += `            <p>язык: ${get_language(p.language)}</p>`;
 		html += `            <p>платформа: ${p.platform}</p>`;
-		html += `            <p>статус: ${p.status}</p>`;
+		if(p.platform != "WEB")
+		    html += `        <p>тип: ${get_type(p.type)}</p>`;
+		html += `            <p>статус: ${get_status(p.status)}</p>`;
 		if(p.exception)
 		    html += `        <p>(${p.exception})</p>`;
 		if(p.platform == "WEB")
@@ -60,6 +66,35 @@ function main() {
 		
 		namehead.style.paddingLeft = Math.max(0, (width - nameWidth - iconWidth) / 2) + "px";*/
 	}
+}
+
+function get_status(id) {
+	/*for(let i = 0; i < statuses.length; i++) {
+		if(statuses[i].id == id) return statuses[i].name;
+	}*/
+	if(id-1 < statuses.length) return statuses[id-1].name;
+	return null;
+}
+
+function get_language(ids) {
+	var str = "";
+	for(let i = 0; i < ids.length; i++) {
+		/*for(let j = 0; j < languages.length; j++) {
+			if(languages[j].id == ids[i]) {
+				if(str == "") str += languages[j].name;
+				else str += ", " + languages[j].name;
+				break;
+			}
+		}*/
+		if(i != 0) str += ", ";
+		if(ids[i]-1 < languages.length) str += languages[ids[i]-1].name;
+	}
+	return str;
+}
+
+function get_type(type) {
+	if(type == "window") return "оконное приложение";
+	else return "консольное приложение";
 }
 
 function get_date(str) {
