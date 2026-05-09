@@ -37,7 +37,7 @@ function main() {
 		html += `            <p>платформа: ${p.platform}</p>`;
 		if(p.platform != "WEB")
 		    html += `        <p>тип: ${get_type(p.type)}</p>`;
-		html += `            <p>статус: ${get_status(p.status)}</p>`;
+		html += `            <p>категория: ${get_status(p.status)}</p>`;
 		if(p.exception)
 		    html += `        <p>(${p.exception})</p>`;
 		if(p.platform == "WEB")

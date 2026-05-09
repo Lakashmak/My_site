@@ -10,6 +10,16 @@
 	text-align: center;
 }
 
+.search > div {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+#textBox1 {
+	width: 90vw;
+	padding-left: 3px;
+}
+
 .search > a {
 	text-decoration: none;
 	color: #000000;
@@ -25,7 +35,16 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding: 10px;
+	padding-top: 15px;
+}
+
+.category {
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 5px;
+	padding-bottom: 15px;
 }
 
 .card {
